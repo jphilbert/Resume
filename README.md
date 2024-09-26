@@ -24,6 +24,8 @@ The data is currently stored in a single Google Sheet, however it can be easily 
 - Plural forms aren't use since it complicated things
 - Capitalization and white spaces are used simply for readability
 
+> [!NOTE]
+> mermaid ER diagrams currently don't support white spaces in column names so they have been removed or replaced with underscore below 
 
 ## Education 
 ```mermaid
