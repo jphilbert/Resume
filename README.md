@@ -1,19 +1,19 @@
 # Resume Automation
 This repository houses automation scripts to create and format my resume however its just data so it could be anyone's resume.
 
+- [Google Document Generation](#GoogleDocument-Generation)
 - [Data](#Data)
 	- [Education](#Education)
-	- [School](#School)
-	- [Class](#Class)
-	- [Position](#Position)
-    - [Company](#Company)
-    - [Responsibility](#Responsibility)
-    - [Project](#Project)
-    - [Project Detail](#Project-Detail)
-    - [Accolade](#Accolade)
-    - [Publication](#Publication)
-    - [Skill](#Skill)
-- [Google Document Generation](#GoogleDocument-Generation)
+	- [Experience](#Experience)
+    - [Accolades and Publications](#Accolades-and-Publications)
+    - [Skills](#Skills)
+
+
+# Google Document Generation
+The Google Scripts [main.gs](main.gs) and [build_functions.gs](build_functions.gs) should be attached to a template file with a body and other elements ![screenshot](screenshot.jpg)
+
+A few fuctions are added to the menu of the template to facilitate merging it with with the data to produce a [complete resume](Resume%20(Basic).pdf).
+
 
 # Data
 The data is currently stored in a single Google Sheet, however it can be easily be switched to multiple CSV tables. As for nomenclature and standards, this is what I choose:
@@ -24,130 +24,137 @@ The data is currently stored in a single Google Sheet, however it can be easily 
 - Plural forms aren't use since it complicated things
 - Capitalization and white spaces are used simply for readability
 
+> [!NOTE]
+> mermaid ER diagrams currently don't support white spaces in column names so they have been removed or replaced with underscore below 
+
 ## Education 
-This table holds the root nodes of the **education** section.
- |   | Name                |
- |:-:|:--------------------|
- | 1 | **Key - Education** |
- | 2 | ***Key - School***  |
- | 3 | Date - Start        |
- | 4 | Date - End          |
- | 5 | Concentration       |
- | 6 | Degree              |
- | 7 | Date - Degree       |
- | 8 | GPA                 |
+```mermaid
+erDiagram
+Education }|--|| School : ""
+Education ||--o{ Class : ""
+Education { 
+  str  Key-Education
+  str  Key-School
+  dt   Date-Start
+  dt   Date-End
+  str  Concentration
+  str  Degree
+  dt   Date-Degree
+  num  GPA
+}
 
-## School
-**School** details related to an **education**.
- |   | Name             |
- |:-:|:-----------------|
- | 1 | **Key - School** |
- | 2 | Name             |
- | 3 | Type             |
- | 4 | Address - City   |
- | 5 | Address - State  |
+School {
+  str  Key-School
+  str  Name
+  str  Type
+  str  Address-City
+  str  Address-State
+}
 
-## Class
-**Classes** attached to an **education**.
- |   | Name                  |
- |:-:|:----------------------|
- | 1 | **Key - Class**       |
- | 2 | ***Key - Education*** |
- | 3 | Code                  |
- | 4 | Title                 |
- | 5 | Description           |
- | 6 | Date                  |
- | 7 | Units                 |
- | 8 | Grade                 |
+Class {
+  str  Key-Class
+  str  Key-Education
+  str  Code
+  str  Title
+  str  Description
+  dt   Date
+  num  Units
+  str  Grade
+}
+```
 
-## Position
-**Positions** are the root of the experience section.
- |   | Name                |
- |:-:|:--------------------|
- | 1 | **Key - Position**  |
- | 2 | ***Key - Company*** |
- | 3 | Title               |
- | 4 | Description         |
- | 5 | Date - Start        |
- | 6 | Date - End          |
- | 7 | Supervisor          |
- | 8 | Email               |
- | 9 | Phone               |
+## Experience
+```mermaid
+erDiagram
+Position }|--|| Company : ""
+Responsibility }o--|| Position : ""
+Project }o--|| Position : ""
+Project_Detail }o--|| Project : ""
+Position {
+  str  Key-Position
+  str  Key-Company
+  str  Title
+  str  Description
+  dt   Date-Start
+  dt   Date-End
+  str  Supervisor
+  str  Email
+  str  Phone
+}
 
-## Company
-A single **company** is attached to a **position**.
- |    | Name              |
- |:--:|:------------------|
- | 1  | **Key - Company** |
- | 2  | Name              |
- | 3  | Description       |
- | 4  | Website           |
- | 5  | Email             |
- | 6  | Phone             |
- | 7  | Address - Street  |
- | 8  | Address - City    |
- | 9  | Address - State   |
- | 10 | Address - Zip     |
+Company {
+  str  Key-Company
+  str  Name
+  str  Description
+  str  Website
+  str  Email
+  str  Phone
+  str  Address-Street
+  str  Address-City
+  str  Address-State
+  str  Address-Zip
+}
 
-## Responsibility
-A **position** can have multiple **responsibilities**.
- |   | Name                     |
- |:-:|:-------------------------|
- | 1 | **Key - Responsibility** |
- | 2 | ***Key - Position***     |
- | 3 | Order                    |
- | 4 | Name                     |
+Responsibility {
+  str  Key-Responsibility
+  str  Key-Position
+  int  Order
+  str  Name
+}
 
-## Project
-A **position** can have multiple **projects**.
- |   | Name                 |
- |:-:|:---------------------|
- | 1 | **Key - Project**    |
- | 2 | ***Key - Position*** |
- | 3 | Order                |
- | 4 | Name                 |
- | 5 | Description          |
+Project {
+  str  Key-Project
+  str  Key-Position
+  int  Order
+  str  Name
+  str  Description
+}
 
-## Project Detail
-A **project** can have multiple **details**.
- |   | Name                     |
- |:-:|:-------------------------|
- | 1 | **Key - Project Detail** |
- | 2 | ***Key - Project***      |
- | 3 | Order                    |
- | 4 | Name                     |
+Project_Detail{
+  str  Key-Project_Detail
+  str  Key-Project
+  int  Order
+  str  Name
+}
+```
 
-## Accolade
- |   | Name               |
- |:-:|:-------------------|
- | 1 | **Key - Accolade** |
- | 2 | Date               |
- | 3 | Name               |
- | 4 | Description        |
+## Accolades and Publications
+These tables are pretty similar and have their own section in a resume.
+```mermaid
+erDiagram
+Accolade {
+  str  Key-Accolade
+  dt   Date
+  str  Name
+  str  Description
+}
 
-## Publication
- |   | Name                  |
- |:-:|:----------------------|
- | 1 | **Key - Publication** |
- | 2 | Title                 |
- | 3 | Abstract              |
- | 4 | Date                  |
- | 5 | Journal               |
- | 6 | URL                   |
+Publication {
+  str  Key-Publication
+  str  Title
+  str  Abstract
+  dt   Date
+  str  Journal
+  str  URL
+}
+```
 
-## Skill
- |   | Name            |
- |:-:|:----------------|
- | 1 | **Key - Skill** |
- | 2 | Category        |
- | 3 | Name            |
- | 4 | Description     |
+## Skills
+For the most part, skills are simply a categorized list. I have added another table for future use that connects a skill to another element in any other table.
+```mermaid
+erDiagram
+Skill ||--o{ Skill_Association : ""
+Skill_Association }o--|| PARENT : ""
+Skill {
+  str  Key-Skill
+  str  Category
+  str  Name
+  str  Description
+}
 
-## Skill Association
- |   | Name               |
- |:-:|:-------------------|
- | 1 | ***Key - Skill***  |
- | 2 | ***Key - Parent*** |
-
-
-# Google Document Generation
+Skill_Association {
+  str  Key-Skill
+  str  Key-Parent
+  str  Parent_Table
+}
+```
