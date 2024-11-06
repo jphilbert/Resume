@@ -1,0 +1,51 @@
+Key - Project Detail,Key - Project,Order,Name
+HM-2016-08-1-1,HM-2016-08-1,1,"Responsible for conducting research, developing and evaluating models, and ensuring their seamless integration into the application."
+HM-2016-08-1-2,HM-2016-08-1,2,"Collect and coordinate data and functional requirements between analytics, marketing, and IT departments."
+HM-2016-08-1-3,HM-2016-08-1,3,"Assist in the design and evaluation of models, ensuring their effectiveness and integration into the application."
+HM-2016-08-2-1,HM-2016-08-2,1,Develop methods to identify optimal locations for health services.
+HM-2016-08-2-2,HM-2016-08-2,2,Prepare and present comprehensive scenarios to support the creation of strategic partnerships for network growth.
+HM-2016-08-3-1,HM-2016-08-3,1,Collect and analyze business requirements to understand the needs of the organization.
+HM-2016-08-3-2,HM-2016-08-3,2,"Create a standard set of segments, including translations from previous definitions and documentation of their use."
+HM-2016-08-3-3,HM-2016-08-3,3,Ensure data is accessible and transparent across the organization.
+INN-2015-04-1-1,INN-2015-04-1,1,"Utilize discretionary data elements, even those with unknown validity."
+INN-2015-04-1-2,INN-2015-04-1,2,Design a tunable method that can be updated with minimal volatility.
+INN-2015-04-1-3,INN-2015-04-1,3,Ensure the algorithm is fast and efficient for integration into the daily data pipeline.
+INN-2015-04-2-1,INN-2015-04-2,1,"Design the application for use by data scientists (R, Python), business intelligence analysts (Looker), and software engineers."
+INN-2015-04-2-2,INN-2015-04-2,2,Incorporate data elements to easily validate quality between sublayers.
+INN-2015-04-2-3,INN-2015-04-2,3,Prototype and integrate the application into the data pipeline.
+INN-2015-04-2-4,INN-2015-04-2,4,Document elements for varying levels of expertise and use.
+INN-2015-04-3-1,INN-2015-04-3,1,Create primary and derivative metrics to measure performance.
+INN-2015-04-3-2,INN-2015-04-3,2,Wireframe to illustrate the flow and use of the application to stakeholders and customers.
+INN-2015-04-3-3,INN-2015-04-3,3,"Design matched cohorts for comparative analytics, ensuring sufficient randomization to satisfy client and HIPAA privacy requirements."
+TMG-2007-09-1-1,TMG-2007-09-1,1,Identify clusters and analyze their bonding behavior.
+TMG-2007-09-1-2,TMG-2007-09-1,2,Estimate the expected price and volatility of groups daily.
+TMG-2007-09-2-1,TMG-2007-09-2,1,Create an innovative hybrid of the Nelder–Mead method and genetic algorithms.
+TMG-2007-09-2-2,TMG-2007-09-2,2,Improve performance further through conversion event-based messaging for multithreaded scaling.
+TMG-2007-09-3-1,TMG-2007-09-3,1,"Analyze time series of equities using ARMAX, VARMA, and wavelet transforms in MATLAB."
+UPMC-2010-09-1-1,UPMC-2010-09-1,1,Estimate medical and pharmacy costs of members each month for the next 12 periods.
+UPMC-2010-09-1-2,UPMC-2010-09-1,2,Reproduce monthly cost estimations automatically following EDW updates.
+UPMC-2010-09-1-3,UPMC-2010-09-1,3,"Partition the model by line of business (e.g., commercial, Medicare, etc.) and service category (e.g., Inpatient, Urgent Care, PCP, etc.)."
+UPMC-2010-09-2-1,UPMC-2010-09-2,1,"Investigate networks naturally formed between hospitals, specialists, and primary care physicians."
+UPMC-2010-09-2-2,UPMC-2010-09-2,2,Investigate transfers within (emergency department ⇄ short-term observation ⇄ inpatient) and between hospitals (such as general ⇄ specialty).
+UPMC-2010-09-3-1,UPMC-2010-09-3,1,Define specialty through a graph network created between reported specialty and reported procedures.
+UPMC-2010-09-3-2,UPMC-2010-09-3,2,Identify and correct provider specialty through comparison of procedure networks.
+UPMC-2010-09-4-1,UPMC-2010-09-4,1,Construct dimensionless quantities invariant of risk and cost to be used for ranking and comparison of providers.
+UPMC-2010-09-4-2,UPMC-2010-09-4,2,Create interactive visual reports for medical directors and executives to assess network and strategies.
+UPMC-2010-09-5-1,UPMC-2010-09-5,1,Gather and assess limitations in current software and procedures.
+UPMC-2010-09-5-2,UPMC-2010-09-5,2,Reproduce examples of current reports in commercial and open-source applications for comparison and evaluation.
+UPMC-2018-01-1-1,UPMC-2018-01-1,1,Accurately calculate a member's percentage of days covered daily with estimated correction for IBNR.
+UPMC-2018-01-1-2,UPMC-2018-01-1,2,Route members to proper interventions per requested business rules and predictive models.
+UPMC-2018-01-1-3,UPMC-2018-01-1,3,Fully automate reporting with tracking of data lineage.
+UPMC-2018-01-1-4,UPMC-2018-01-1,4,Monitor and estimate yearly performance.
+UPMC-2018-01-3-1,UPMC-2018-01-3,1,Assist in the use of the API by scientists and engineers.
+UPMC-2018-01-3-2,UPMC-2018-01-3,2,Prototype improved processes with additional data for comparison with current practices.
+UPMC-2018-01-3-3,UPMC-2018-01-3,3,Present the investment and value of integration.
+UPMC-2020-09-1-1,UPMC-2020-09-1,1,Evaluate requirements and the application process to understand technicalities and determine deficiencies.
+UPMC-2020-09-1-2,UPMC-2020-09-1,2,Propose improvements to reduce the burden on care managers and increase enrollment success.
+UPMC-2020-09-1-3,UPMC-2020-09-1,3,Identify and route members through the process between departments and vendors as defined by desired rules and predictive models.
+UPMC-2020-09-1-4,UPMC-2020-09-1,4,Automate and integrate the application within the client's framework.
+UPMC-2020-09-1-5,UPMC-2020-09-1,5,Consult periodically on yearly performance.
+UPMC-2020-09-2-1,UPMC-2020-09-2,1,Assist in evaluating strategies.
+UPMC-2020-09-2-2,UPMC-2020-09-2,2,Analyze the effectiveness of the chosen interventions.
+UPMC-2020-09-3-1,UPMC-2020-09-3,1,Consult with and facilitate discussions between medical directors and data scientists.
+UPMC-2020-09-3-2,UPMC-2020-09-3,2,Generate BI tools to assist in strategy design.

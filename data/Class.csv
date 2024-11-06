@@ -1,0 +1,30 @@
+Key - Class,Key - Education,Code,Title,Description,Date,Units,Grade
+1,HOR,,HDP Analyst: Data Science,"Provides instruction on the processes and practice of data science, including machine learning and natural language processing. Covers tools and programming languages (Python, IPython, Mahout, Pig, NumPy, pandas, SciPy, Scikit-Learn), the Natural Language Toolkit (NLTK), and Spark MLlib.",2016-11,,
+2,ELD,,Tools for Discovering Patterns in Data​: A Survey of Modern Data Mining Algorithms,"A practical, experience-based, 2-day concepts course, known for demystifying data mining with clarity and humor. Learn to isolate the essential aspects of a problem and select and combine appropriate software tools to find useful patterns in noisy, incomplete data. Practical examples and useful techniques are drawn from successful consulting engagements in a wide range of fields -- including investment modeling, fraud detection, biometrics, credit scoring, customer relationship management, drug efficacy estimation, process optimization, and image recognition.
+
+The course contains the popular segment, Top 10 Data Mining Mistakes, and How to Avoid Them, as well as vendor-neutral discussions of the strengths of leading software tools, and clear explanations of the essential technologies of resampling statistics, ensembles of models, and scientific visualization.",2011-04,,
+3,COU,,Health Policy and the Affordable Care Act,"This course will explore the history and structure of the current American healthcare system, including the history of and problems with employment-based health insurance, the challenges surrounding access, cost and quality, and the medical malpractice conundrum. The course will then explore the history of health care reform and the challenges that were overcome to achieve health reform in America. Finally, we will delineate the specific ways that the Affordable Care Act improves access and quality, and will control costs. Throughout lessons regarding health economics, health policy, and medical practice will be elucidated.",,,
+4,COU,,Probabilistic Graphical Models,"Describes the two basic PGM representations: Bayesian Networks, which rely on a directed graph; and Markov networks, which use an undirected graph. The course discusses both the theoretical properties of these representations as well as their use in practice. ",,,
+5,COU,,Social Network Analysis,"Covers defining networks and discover the languages networks use. Analysis of social network through data wrangling and visualizing a network. Discussion what mechanisms generate networks. Finally, examine social networks analysis using case studies.",,,
+6,PIT1,PHYS 2990,Independent Study,,2004-05,3,S
+7,PIT1,PHYS 2565,Non-Relativistic Quantum Mechanics 1,,2004-09,3,A
+8,PIT1,PHYS 2997,Teaching Of Physics,,2004-09,1,S
+9,PIT1,PHYS 2998,Teaching Of Physics-Practicum,,2004-09,2,A
+10,PIT1,PHYS 3707,Intermediate Quantum Mechanics,,2004-09,3,B+
+11,PIT1,PHYS 2556,Adv Clsscl Electricity & Magnetism 2,,2005-01,3,A-
+12,PIT1,PHYS 2566,Non-Relativistic Quantum Mechanics 2,,2005-01,3,A
+13,PIT1,PHYS 2998,Teaching Of Physics-Practicum,,2005-01,2,A
+14,PIT1,PHYS 3765,Relativistic Quantum Mechanics,,2005-01,3,A
+15,PIT1,PHYS 3904,Directed Study,,2005-05,3,S
+16,PIT1,PHYS 3717,Advanced Nuclear Physics 1,,2005-09,3,N
+17,PIT1,PHYS 3725,General Relativity 1,,2005-09,3,A-
+18,PIT1,PHYS 3902,Directed Study,,2005-09,9,S
+19,PIT1,MATH 3226,Mathematics Of Finance 2,,2006-01,3,A
+20,PIT1,PHYS 2998,Teaching Of Physics-Practicum,,2006-01,2,A
+21,PIT1,PHYS 3000,Research And Dissertation PhD,,2006-01,3,S
+22,PIT1,PHYS 3718,Advanced Nuclear Physics 2,,2006-01,3,B
+23,PIT1,PHYS 3766,Field Theory,,2006-01,3,A
+24,PIT1,PHYS 3000,Research And Dissertation PhD,,2006-09,9,S
+25,PIT1,PHYS 3902,Directed Study,,2006-09,6,S
+26,PIT1,FTDB 3999,Full-Time Dissertation Study,,2007-01,,
+27,PIT1,PHYS 2000,Research And Thesis MS Degree,,2008-09,1,

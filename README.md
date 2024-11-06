@@ -16,7 +16,7 @@ A few fuctions are added to the menu of the template to facilitate merging it wi
 
 
 # Data
-The data is currently stored in a single Google Sheet, however it can be easily be switched to multiple CSV tables. As for nomenclature and standards, this is what I choose:
+The data is currently stored in a single Google Sheet, however it can be easily be switched to multiple CSV tables using [spreadsheet_functions.gs](spreadsheet_functions.gs). This script also includes a method for listing and exporting the columns in each table, [data_dictionary.csv](data_dictionary.csv). As for nomenclature and standards, this is what I choose:
 
 - Keys begin with `Key` and end with a table name
 - Primary keys will be the first column followed by foreign keys

@@ -1,0 +1,21 @@
+Key - Project,Key - Position,Order,Name,Description
+HM-2016-08-1,HM-2016-08,1,Find Your Perfect Doctor,"A doctor-patient matching platform that matches a user with the best PCP based on their profile created through a series of specifically designed questions, demographic information, and medical history."
+HM-2016-08-2,HM-2016-08,2,Optimal Emergency Department Site Selection,Identify and recommend optimal locations in the region for new Allegheny Health Network services to either capture non-member utilization or satisfy future changes in Highmark membership.
+HM-2016-08-3,HM-2016-08,3,Geographic Market Segmentation,"Create mutually exclusive, collectively exhaustive geographic partitions of Pennsylvania for use throughout the enterprise for business analysis and reporting."
+INN-2015-04-1,INN-2015-04,1,Member Record Matching,Connect an individual's data across various vendor feeds over time with varying cleanliness.
+INN-2015-04-2,INN-2015-04,2,Design of Analytical Data Layer,Extend the EDW following staging and storage of customer and vendor data. Specifically planned for varying levels of use and expertise.
+INN-2015-04-3,INN-2015-04,3,Product Design of Benchmarking Tool,Plan and prototype a tool for clients to compare themselves with other similar clients across various metrics.
+TMG-2007-09-1,TMG-2007-09,1,Identification of Portfolio Arbitrage Opportunities,Hierarchical clustering of the majority of the U.S. market cap.
+TMG-2007-09-2,TMG-2007-09,2,Market Simulator Model Optimization,"Upgrade daily parameter estimation for models used by traders to facilitate larger, more robust predictions."
+TMG-2007-09-3,TMG-2007-09,3,Signal Detection  for Algorithmic Trading,Identify optimal timing of spread trades.
+UPMC-2010-09-1,UPMC-2010-09,1,Financial Forecasting,Monthly cost projections for corporate budget.
+UPMC-2010-09-2,UPMC-2010-09,2,Provider Network Modeling,"Analyze, model, and visualize provider interactions through sharing and referral of members."
+UPMC-2010-09-3,UPMC-2010-09,3,Provider Specialty Categorization,Define and categorize providers by submitted procedures.
+UPMC-2010-09-4,UPMC-2010-09,4,Specialist Performance Reporting,Comparative assessments of specialty providers used by the healthplan.
+UPMC-2010-09-5,UPMC-2010-09,5,Visualization and Reporting POC,Evaluate options and advocate for the adoption of more suitable BI software for reporting and data visualization.
+UPMC-2018-01-1,UPMC-2018-01,1,Pharmacy Intervention Recommendation Tool,"An application to assist care management activities to improve and maintain medication adherence for diabetes, cholesterol, and hypertension."
+UPMC-2018-01-2,UPMC-2018-01,2,Word Embedding to Identify Homelessness,An NLP model to predict a patient's risk of homelessness.
+UPMC-2018-01-3,UPMC-2018-01,3,Text Data Integration and Proof-of-Concept,Provide guidance on the unstructured EMR data lake created for NLP research.
+UPMC-2020-09-1,UPMC-2020-09,1,Community HealthChoices Benefit Optimization,An application to initiate contact and coordinate transition of members through the application process.
+UPMC-2020-09-2,UPMC-2020-09,2,Medicare Retention,"Advise the business on the use of data, vendors, and intervention."
+UPMC-2020-09-3,UPMC-2020-09,3,Identification of Palliative Care Need,Increase awareness of palliative care benefits for members most suitable.

@@ -1,0 +1,70 @@
+Table Name,Column ID,Column Name
+Education,1,Key - Education
+Education,2,Key - School
+Education,3,Date - Start
+Education,4,Date - End
+Education,5,Concentration
+Education,6,Degree
+Education,7,Date - Degree
+Education,8,GPA
+School,1,Key - School
+School,2,Name
+School,3,Type
+School,4,Address - City
+School,5,Address - State
+Class,1,Key - Class
+Class,2,Key - Education
+Class,3,Code
+Class,4,Title
+Class,5,Description
+Class,6,Date
+Class,7,Units
+Class,8,Grade
+Position,1,Key - Position
+Position,2,Key - Company
+Position,3,Title
+Position,4,Description
+Position,5,Date - Start
+Position,6,Date - End
+Position,7,Supervisor
+Position,8,Email
+Position,9,Phone
+Company,1,Key - Company
+Company,2,Name
+Company,3,Description
+Company,4,Website
+Company,5,Email
+Company,6,Phone
+Company,7,Address - Street
+Company,8,Address - City
+Company,9,Address - State
+Company,10,Address - Zip
+Responsibility,1,Key - Responsibility
+Responsibility,2,Key - Position
+Responsibility,3,Order
+Responsibility,4,Name
+Project,1,Key - Project
+Project,2,Key - Position
+Project,3,Order
+Project,4,Name
+Project,5,Description
+Project Detail,1,Key - Project Detail
+Project Detail,2,Key - Project
+Project Detail,3,Order
+Project Detail,4,Name
+Accolade,1,Key - Accolade
+Accolade,2,Date
+Accolade,3,Name
+Accolade,4,Description
+Publication,1,Key - Publication
+Publication,2,Title
+Publication,3,Abstract
+Publication,4,Date
+Publication,5,Journal
+Publication,6,URL
+Skill,1,Key - Skill
+Skill,2,Category
+Skill,3,Name
+Skill,4,Description
+Skill Association,1,Key - Skill
+Skill Association,2,Key - Parent

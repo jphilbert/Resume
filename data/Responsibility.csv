@@ -1,0 +1,34 @@
+Key - Responsibility,Key - Position,Order,Name
+PITT-2004-05-1,PITT-2004-05,1,Instruction of Introductory Physics course
+PITT-2004-05-2,PITT-2004-05,2,6-week summer session
+PITT-2004-05-3,PITT-2004-05,3,Manage assistants and recitations
+PITT-2004-09-1,PITT-2004-09,1,Oversee weekly recitations
+PITT-2004-09-2,PITT-2004-09,2,"Grade homework, quizzes, and exams"
+TMG-2007-09-1,TMG-2007-09,1,Assist in research endeavors regarding fixed income and equity trading
+TMG-2007-09-2,TMG-2007-09,2,Provide insights and implement improvements in current processes and applications
+AEG-2008-11-1,AEG-2008-11,1,"Manage, coordinate, and train global off-site and local QA engineers"
+AEG-2008-11-2,AEG-2008-11,2,Conduct black-box testing of algorithmic trading platform and associated applications
+AEG-2008-11-3,AEG-2008-11,3,"Document new features, including automated algorithms, and prepare test plans"
+UPMC-2010-09-1,UPMC-2010-09,1,Provide insights to assist product owners and executives in making informed decisions
+UPMC-2010-09-2,UPMC-2010-09,2,Promote the use of analytics throughout the organization
+UPMC-2010-09-3,UPMC-2010-09,3,Serve as a guardian of various internal and external data
+UPMC-2010-09-4,UPMC-2010-09,4,Act as a software and analytics liaison/advisor within and between departments in the organization
+INN-2015-04-1,INN-2015-04,1,"Lead a team of data scientists responsible for researching, designing, prototyping, and validating analytical solutions"
+INN-2015-04-2,INN-2015-04,2,"Drive innovative solutions based on exploratory data analysis, applying knowledge of software engineering, statistics, data modeling, simulation, and advanced mathematics to recognize patterns, identify opportunities, and pose business questions"
+INN-2015-04-3,INN-2015-04,3,"Foster a cross-functional, agile environment spanning data warehousing, data modeling, data analytics, and data product development"
+INN-2015-04-4,INN-2015-04,4,"Determine the best design and timeline to apply practical data science-based solutions to actual business problems, often deciding the correct tradeoffs between accuracy, performance, scalability, and delivery time"
+INN-2015-04-5,INN-2015-04,5,"Communicate data-driven actionable results and recommendations clearly and concisely to senior leadership and non-quantitative audiences, including key business partners and clients"
+INN-2015-04-6,INN-2015-04,6,"Develop and drive changes to complex business and systems processes in partnership with other areas of the business, such as data warehousing/business intelligence, IT, and operations"
+HM-2016-08-1,HM-2016-08,1,Build and manage a robust enterprise-level data science team during restructuring and growth
+HM-2016-08-2,HM-2016-08,2,"Promote the use of novel data, analytical technologies, and statistical methods across the business"
+HM-2016-08-3,HM-2016-08,3,"Establish and maintain sound analytical practices focused on structure, quality, and documentation"
+UPMC-2018-01-1,UPMC-2018-01,1,Serve as a resource for NLP research and departmental representative to UPMC’s subsidiary business incubator
+UPMC-2018-01-2,UPMC-2018-01,2,"Mentor and oversee junior colleagues in proper analytical practices, statistical methods, data engineering, and programming"
+UPMC-2018-01-3,UPMC-2018-01,3,Provide insights to assist product owners and executives in making informed decisions
+UPMC-2018-01-4,UPMC-2018-01,4,Serve as the author and custodian of various internal and external data
+UPMC-2020-09-1,UPMC-2020-09,1,"Bring together diverse talents, information, technologies, and innovations to build robust and focused business solutions"
+UPMC-2020-09-2,UPMC-2020-09,2,"Guide, translate, and prototype solutions in a rapid agile manner across various departments"
+UPMC-2020-09-3,UPMC-2020-09,3,Provide end-to-end analytical solutions to business problems across the organization
+UPMC-2020-09-4,UPMC-2020-09,4,Identify customer analytical needs or deficiencies often independently
+UPMC-2020-09-5,UPMC-2020-09,5,"Collaborate on the design and development, outlining technical and analytical requirement needs"
+UPMC-2020-09-6,UPMC-2020-09,6,Manage solutions through the entire lifecycle with particular attention to monitoring impact and value continuously
